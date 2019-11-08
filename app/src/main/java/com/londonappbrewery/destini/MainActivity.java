@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             if(mStoryIndex == 1){
                 mStoryTextView.setText(R.string.T1_Story);
                 mTopButton.setText(R.string.T1_Ans1);
-                mBottomButton.setText(R.string.T2_Ans2);
+                mBottomButton.setText(R.string.T1_Ans2);
             } else if(mStoryIndex == 2){
                 mStoryTextView.setText(R.string.T2_Story);
                 mTopButton.setText(R.string.T2_Ans1);
